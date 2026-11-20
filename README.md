@@ -1,7 +1,10 @@
 # Ecossistema Jesse William (link da bio)
 
 Páginas:
-- `index.html`: hub do link da bio (YouTube, Instagram, WhatsApp, materiais gratuitos com captura de lead, ferramentas de IA).
+- `index.html`: link da bio (perfil, botões e bloco do YouTube).
+- `materiais.html` (/materiais): materiais gratuitos com captura de lead.
+- `ferramentas.html` (/ferramentas): ferramentas de IA (lidas do tools.json).
+- `tryad.html` (jessewilliam.com.br/tryad): página do Grupo Tryad (5 processos + IA).
 - `clientes.html`: landing page do serviço (máquina de clientes) para receber tráfego pago. CTA vai pro WhatsApp.
 - `guia-trafego-pago-do-zero.html`: página do guia gratuito.
 - `privacidade.html`.
@@ -9,7 +12,7 @@ Páginas:
 Editar rápido:
 - `config.js`: número do WhatsApp, mensagem, links do YouTube/Instagram e **ID do Pixel da Meta** (dispara PageView e Contact no clique do WhatsApp).
 - `tools.json`: ferramentas de IA (Skill, MCP, GitHub). `materials.json`: materiais gratuitos.
-- Bonequinho: `<div class="boneco" data-pose="acena|aponta|joinha|cruzado|notebook|megafone|placa" data-text="texto da placa" data-flip></div>` (adicione `sm` ou `xs` na classe para diminuir). Rosto em `img/jesse-rosto.png`.
+- Foto do Jesse: só no cabeçalho de perfil (index) e no avatar pequeno do menu das outras páginas (imagem embutida no HTML).
 
 Visual: fundo escuro quadriculado, laranja #FF6B1A, Archivo + JetBrains Mono + Caveat.
 
@@ -34,7 +37,11 @@ Os arquivos em `materiais/` ficam acessíveis por link direto; para acesso prote
 Complete `privacidade.html` e teste o fluxo com seus dados.
 
 ## Estrutura
-- `index.html`: biblioteca. O card do guia leva para `/guia-trafego-pago-do-zero`, onde a pessoa informa os dados e baixa.
+- `index.html`: link da bio (perfil, botões e bloco do YouTube).
+- `materiais.html` (/materiais): materiais gratuitos com captura de lead.
+- `ferramentas.html` (/ferramentas): ferramentas de IA (lidas do tools.json).
 - `styles.css` e `lead.js`: visual e formulário compartilhados pelas duas páginas.
 - `materials.json`: catálogo. Use `"page"` para o card apontar para uma página própria; `"status":"soon"` vira lista de espera.
 - Kit Cliente na Internet e Planilha de Leads estão como "em breve". Para liberar, mude o status para `available`, adicione `file` e coloque o arquivo em `materiais/`.
+
+Teste local: as páginas abrem com dois cliques (os links usam `.html`). Ao editar `materials.json` ou `tools.json`, o site no ar usa os JSON; a cópia embutida em `materiais.html`/`ferramentas.html` só serve para abrir direto do PC. O envio do formulário só funciona no ar (Vercel).
