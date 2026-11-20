@@ -1,0 +1,52 @@
+[
+ {
+  "id": "guia-trafego-pago-do-zero",
+  "title": "Guia Tráfego Pago do Zero",
+  "category": "Anúncios e tráfego",
+  "format": "Guia PDF",
+  "description": "O guia completo para prestadores de serviço e empreendedores fazerem o próprio tráfego pago, do primeiro clique ao lead no WhatsApp.",
+  "status": "available",
+  "file": "materiais/Guia-Trafego-Pago-do-Zero.pdf",
+  "page": "guia-trafego-pago-do-zero.html"
+ },
+ {
+  "id": "kit-cliente-na-internet",
+  "title": "Kit Cliente na Internet",
+  "category": "Atrair clientes",
+  "format": "Kit",
+  "description": "Prompt, planilha e checklist para conseguir clientes com tráfego pago e IA.",
+  "status": "soon"
+ },
+ {
+  "id": "planilha-de-leads",
+  "title": "Planilha de Leads",
+  "category": "Vender mais",
+  "format": "Planilha",
+  "description": "Mostra quem pediu orçamento e sumiu e avisa quem você precisa chamar hoje.",
+  "status": "soon"
+ },
+ {
+  "id": "guia-claude-meta-ads",
+  "title": "Guia: conectar o Claude ao Meta Ads",
+  "category": "IA para o negócio",
+  "format": "Guia",
+  "description": "Passo a passo para analisar suas campanhas com IA, com segurança.",
+  "status": "soon"
+ },
+ {
+  "id": "modelo-proposta",
+  "title": "Modelo de proposta comercial com IA",
+  "category": "Vender mais",
+  "format": "Modelo",
+  "description": "Monte uma proposta profissional em minutos e feche mais orçamentos.",
+  "status": "soon"
+ },
+ {
+  "id": "checklist-pagina-vendas",
+  "title": "Checklist da página de vendas",
+  "category": "Presença digital",
+  "format": "Checklist",
+  "description": "O que sua página precisa ter para transformar visita em conversa.",
+  "status": "soon"
+ }
+]

@@ -1,0 +1,11 @@
+[
+ {"kind":"Skill","title":"Skills oficiais da Anthropic","repo":"anthropics/skills","url":"https://github.com/anthropics/skills","description":"As skills oficiais do Claude: documentos, planilhas, PDF, design de páginas e como criar as suas.","install":"/plugin marketplace add anthropics/skills"},
+ {"kind":"Skill","title":"HyperFrames (vídeo em HTML)","repo":"heygen-com/hyperframes","url":"https://github.com/heygen-com/hyperframes","description":"É o que eu uso para criar vídeos animados escrevendo HTML. O Claude vira editor de vídeo.","install":"npx skills add heygen-com/hyperframes"},
+ {"kind":"Skill","title":"Remotion (vídeo com código)","repo":"remotion-dev/skills","url":"https://github.com/remotion-dev/skills","description":"Skills oficiais do Remotion para o Claude Code criar motion graphics e vídeos com React.","install":"npx skills add remotion-dev/skills"},
+ {"kind":"MCP","title":"Meta Ads MCP","repo":"pipeboard-co/meta-ads-mcp","url":"https://github.com/pipeboard-co/meta-ads-mcp","description":"Conecta o Claude ao Gerenciador de Anúncios: analisa campanhas, orçamentos e criativos conversando."},
+ {"kind":"MCP","title":"Supabase MCP","repo":"supabase-community/supabase-mcp","url":"https://github.com/supabase-community/supabase-mcp","description":"Deixa o Claude criar tabelas e consultar o banco de dados dos seus leads e sistemas."},
+ {"kind":"MCP","title":"Notion MCP","repo":"makenotion/notion-mcp-server","url":"https://github.com/makenotion/notion-mcp-server","description":"O Claude lê e organiza suas tarefas, ideias e páginas do Notion."},
+ {"kind":"MCP","title":"Servidores MCP oficiais","repo":"modelcontextprotocol/servers","url":"https://github.com/modelcontextprotocol/servers","description":"A lista oficial de servidores MCP para conectar o Claude a arquivos, navegador, Git e muito mais."},
+ {"kind":"GitHub","title":"Google Maps Scraper Kit","repo":"Mahanaicoach/google-maps-scraper-kit","url":"https://github.com/Mahanaicoach/google-maps-scraper-kit","description":"Lista de leads do Google Maps (telefone, site, redes) rodando no seu PC, de graça. Eu uso para prospectar."},
+ {"kind":"GitHub","title":"Claude Code","repo":"anthropics/claude-code","url":"https://github.com/anthropics/claude-code","description":"O Claude no terminal: cria sites, páginas, automações e vídeos para você. É onde tudo isso roda."}
+]
