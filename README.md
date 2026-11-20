@@ -1,6 +1,17 @@
-# Biblioteca de Materiais Gratuitos
+# Ecossistema Jesse William (link da bio)
 
-Biblioteca (index.html) + página do Guia Tráfego Pago do Zero (guia-trafego-pago-do-zero.html) + uma função serverless (`api/lead.js`) que grava o lead no Supabase. Sem build e sem dependências.
+Páginas:
+- `index.html`: hub do link da bio (YouTube, Instagram, WhatsApp, materiais gratuitos com captura de lead, ferramentas de IA).
+- `clientes.html`: landing page do serviço (máquina de clientes) para receber tráfego pago. CTA vai pro WhatsApp.
+- `guia-trafego-pago-do-zero.html`: página do guia gratuito.
+- `privacidade.html`.
+
+Editar rápido:
+- `config.js`: número do WhatsApp, mensagem, links do YouTube/Instagram e **ID do Pixel da Meta** (dispara PageView e Contact no clique do WhatsApp).
+- `tools.json`: ferramentas de IA (Skill, MCP, GitHub). `materials.json`: materiais gratuitos.
+- Bonequinho: `<div class="boneco" data-pose="acena|aponta|joinha|cruzado|notebook|megafone|placa" data-text="texto da placa" data-flip></div>` (adicione `sm` ou `xs` na classe para diminuir). Rosto em `img/jesse-rosto.png`.
+
+Visual: fundo escuro quadriculado, laranja #FF6B1A, Archivo + JetBrains Mono + Caveat.
 
 ## Publicar
 1. `git init && git add . && git commit -m "biblioteca" ` e envie para o GitHub.
