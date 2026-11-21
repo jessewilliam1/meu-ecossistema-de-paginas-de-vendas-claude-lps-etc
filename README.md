@@ -4,8 +4,9 @@ Páginas:
 - `index.html`: link da bio (perfil, botões e bloco do YouTube).
 - `materiais.html` (/materiais): materiais gratuitos com captura de lead.
 - `ferramentas.html` (/ferramentas): ferramentas de IA (lidas do tools.json).
+- `portfolio.html` (/portfolio): sites criados (links externos).
 - `tryad.html` (jessewilliam.com.br/tryad): página do Grupo Tryad (5 processos + IA).
-- `clientes.html`: landing page do serviço (máquina de clientes) para receber tráfego pago. CTA vai pro WhatsApp.
+- `clientes.html` (/clientes): Método Cliente Todo Dia (6 pilares), CTA WhatsApp.
 - `guia-trafego-pago-do-zero.html`: página do guia gratuito.
 - `privacidade.html`.
 
